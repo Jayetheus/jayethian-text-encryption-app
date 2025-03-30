@@ -1,4 +1,4 @@
-#JAYETHIAN MESSAGE ENCRYPTOR
+#JAYETHIAN TEXT ENCRYPTOR
 
 ##**NOTE**
 This is a project to test the knowledge of the React libray and Flask microframework
