@@ -1,11 +1,8 @@
-from flask import Flask, session, request, jsonify 
-from flask_cors import CORS
+from flask import session, request, jsonify 
 from cryptography.fernet import Fernet
+from message_encryptor_b import create_app
 
-
-app = Flask(__name__)
-app.config['SECRET_KEY'] = "crypto_app"
-CORS(app, origins=["http://localhost:5173"])
+app = create_app()
 
 @app.route("/api/encrypt_message", methods=["POST"])
 def encrypt():
