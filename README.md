@@ -2,7 +2,7 @@
 
 ## 📌 NOTE  
 This is a project to test my knowledge of the **React** library and **Flask** microframework.  
-I am not planning to deploy the application yet since it is still in development (and may be deprecated in the future).  
+I am planning to deploy the application here (https://jayethian-text-encryption.vercel.app) since it is still in development (and may be deprecated in the future).  
 
 ---
 
